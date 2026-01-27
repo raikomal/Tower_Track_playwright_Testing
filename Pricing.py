@@ -1,0 +1,51 @@
+import re
+from playwright.sync_api import Playwright, sync_playwright, expect
+
+
+def run(playwright: Playwright) -> None:
+    browser = playwright.chromium.launch(headless=False)
+    context = browser.new_context()
+    page = context.new_page()
+    page.goto("http://103.204.95.212:8084//")
+    page.get_by_role("textbox", name="Username or email").click()
+    page.get_by_role("textbox", name="Username or email").fill("user@gmail.com")
+    page.get_by_role("textbox", name="Password").click()
+    page.get_by_role("textbox", name="Password").fill("12345")
+    page.locator("div").nth(3).click()
+    page.get_by_role("checkbox", name="Remember Me").check()
+    page.get_by_role("button", name="LOGIN").click()
+    page.locator("div").filter(has_text=re.compile(r"^Pricing Optimization$")).first.click()
+    page.get_by_role("img").nth(4).click()
+    page.get_by_role("img", name="x, 350, 45,000. Revenue Curve.").click()
+    page.get_by_role("img", name="x, 300, 60,000. Revenue Curve.").click()
+    page.get_by_role("img", name="x, 250, 70,000. Revenue Curve.").click()
+    page.get_by_role("img", name="x, 150, 60,000. Revenue Curve.").click()
+    page.locator("div:nth-child(2) > .flex.items-center.justify-between > .flex.items-center.gap-3 > .relative > .text-white.text-xl").first.click()
+    page.get_by_role("img", name="20%. Price: $300/kW.").click()
+    page.get_by_role("img", name="30%. Price: $300/kW.").click()
+    page.get_by_role("img", name="80%. Price: $300/kW.").click()
+    page.locator("div:nth-child(2) > div > .flex.items-center.justify-between > .flex.items-center.gap-3 > .relative > .text-white.text-xl > path:nth-child(4)").first.click()
+    page.get_by_role("img", name="$17,000,000. Revenue Curve.").click()
+    page.get_by_role("img", name="$15,500,000. Revenue Curve.").click()
+    page.get_by_role("img", name="$13,000,000. Revenue Curve.").click()
+    page.get_by_role("img", name="$11,500,000. Revenue Curve.").click()
+    page.get_by_role("img", name="$10,500,000. Revenue Curve.").click()
+    page.get_by_role("img", name="$10,000,000. Revenue Curve.").click()
+    page.locator("div:nth-child(2) > div:nth-child(2) > .flex.items-center.justify-between > .flex.items-center.gap-3 > .relative > .text-white.text-xl").click()
+    page.get_by_role("img", name="5/19, 300. DLR incl.").click()
+    page.get_by_role("img", name="6/19, 270. DLR incl.").click()
+    page.get_by_role("img", name="/19, 320. DLR incl.").click()
+    page.get_by_role("img", name="/19, 280. DLR incl.").click()
+    page.get_by_role("img", name="/19, 290. DLR incl.").click()
+    page.get_by_role("img", name="2/19, 70. IRM.").click()
+    page.get_by_role("img", name="5/19, 90. IRM.").click()
+    page.get_by_role("img", name="11/19, 90. IRM.").click()
+    page.get_by_role("img", name="5/19, 240. DLR Turnkey.").click()
+    page.get_by_role("img", name="7/19, 260. DLR Turnkey.").click()
+    # ---------------------
+    context.close()
+    browser.close()
+
+
+with sync_playwright() as playwright:
+    run(playwright)
