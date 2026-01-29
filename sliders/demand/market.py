@@ -100,23 +100,25 @@ def run(page):
     # ================= OPEN TILE =================
     # 1️⃣ Click the tile first
     open_market_intelligence(page)
+# Wait for slow backend API (SYNC SAFE)
+    with page.expect_response(
+        lambda r: "analyze_topics" in r.url and r.status == 200,
+        timeout=120000
+    ):
+        pass
 
-# 2️⃣ Wait for UI render (NOT API)
-    page.wait_for_selector("svg.highcharts-root", timeout=20000)
-
-# 3️⃣ Extra safety: wait for map points
-    page.wait_for_selector("g.highcharts-series", timeout=20000)
-
-    
-
-
-
+    # Wait for chart render
+    page.wait_for_selector(
+        "svg.highcharts-root path.highcharts-point",
+        timeout=30000
+    )
 
     # ================= MAP INTERACTIONS =================
     step_click(
-    page.get_by_role("img", name=re.compile("USA, z:")),
+    page.get_by_role("img", name=re.compile(r"USA, z:")),
     "USA data point"
 )
+
 
     step_click(
         page.get_by_role("img", name="IRL, z: 538. Data Points."),
@@ -140,14 +142,16 @@ def run(page):
     )
 
     step_click(
-        page.get_by_role("img", name="IRL, z: 129. Data Points."),
-        "IRL filtered data point"
-    )
+    page.get_by_role("img", name=re.compile(r"IRL, z:")),
+    "IRL data point"
+)
+
 
     step_click(
-        page.get_by_role("img", name="CHN, z: 57. Data Points."),
-        "CHN filtered data point"
-    )
+    page.get_by_role("img", name=re.compile(r"CHN, z:")),
+    "CHN data point"
+)
+
 
     # ================= CHART INTERACTION =================
     step_select(

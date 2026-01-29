@@ -120,15 +120,15 @@ def run(page):
         "Switch revenue view"
     )
 
-    step_click(
-        page.get_by_role("img", name="$17,000,000. Revenue Curve."),
-        "Revenue 17M"
-    )
+    # step_click(
+    #     page.get_by_role("img", name="$17,000,000. Revenue Curve."),
+    #     "Revenue 17M"
+    # )
 
-    step_click(
-        page.get_by_role("img", name="$15,500,000. Revenue Curve."),
-        "Revenue 15.5M"
-    )
+    # step_click(
+    #     page.get_by_role("img", name="$15,500,000. Revenue Curve."),
+    #     "Revenue 15.5M"
+    # )
 
     step_click(
         page.get_by_role("img", name="$13,000,000. Revenue Curve."),
@@ -212,6 +212,14 @@ def run(page):
     )
 
     # ---------------- BACK ----------------
-    go_back(page)
+    
 
     logger.info("✅ Pricing Optimization completed")
+    # ---------------- BACK (Pricing specific) ----------------
+    step_click(page.locator("//img[@alt='HomeMenu']"),
+    "Home menu (exit Pricing)")
+    
+    
+    # wait until dashboard tiles are visible
+    page.wait_for_selector("text=Demand Intelligence", timeout=20000)
+

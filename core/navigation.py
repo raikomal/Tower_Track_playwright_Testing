@@ -95,7 +95,8 @@ def open_pricing(page):
 
 
 def open_reports(page):
-    open_tile(page, "Reports")
+    open_tile(page, "Report")
+
 
 
 # =======================

@@ -260,7 +260,14 @@ def run(page):
         "Conclusion"
     )
 
-    # ---------------- BACK ----------------
-    go_back(page)
+    
 
     logger.info("✅ Reports completed")
+    # BACK TO HOME (MANDATORY)
+    step_click(
+    page.locator("//img[@alt='HomeMenu']"),
+    "Home menu (exit Pricing)"
+     )
+
+      # Wait for dashboard tiles
+    page.wait_for_selector("text=Demand Intelligence", timeout=15000)
