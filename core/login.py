@@ -1,5 +1,6 @@
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from core.actions import step_fill, step_click, logger
+from core.actions import step_fill, step_click, logger, set_context
 
 USERNAME = "user@gmail.com"
 PASSWORD = "12345"
@@ -10,6 +11,13 @@ def login(page):
     Performs login only if user is not already logged in.
     Uses step-based logging + CSV recording.
     """
+
+    # 🔹 Set LOGIN context
+    set_context(
+        application="Authentication",
+        micro_application="Login",
+        title="Login Validation"
+    )
 
     try:
         # If dashboard already visible, skip login
@@ -35,12 +43,12 @@ def login(page):
         "Password textbox"
     )
 
-    # Remember Me (optional safety)
+    # Remember Me
     remember_me = page.get_by_role("checkbox", name="Remember Me")
     if remember_me.is_visible() and not remember_me.is_checked():
         step_click(remember_me, "Remember Me checkbox")
 
-    # Login button
+    # Login
     step_click(
         page.get_by_role("button", name="LOGIN"),
         "LOGIN button"
@@ -51,4 +59,3 @@ def login(page):
     page.wait_for_selector("text=Demand Insights", timeout=15000)
 
     logger.info(" Dashboard loaded — starting Demand Insights flow")
-

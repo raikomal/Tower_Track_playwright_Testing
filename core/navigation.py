@@ -1,5 +1,6 @@
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 from core.actions import logger
+from core.actions import set_context
 
 
 
@@ -20,6 +21,10 @@ def _click_and_wait(page, locator, wait_text=None):
 
 def go_to_demand_insights(page):
     print("➡️ Navigating to Demand Insights")
+    set_context(
+        application="Demand Insights",
+        title="Demand Insights End-to-End Validation"
+    )
 
     # Button / icon based navigation (stable)
     page.get_by_role("button", name="Demand Insights").click()
@@ -29,22 +34,24 @@ def go_to_demand_insights(page):
 
 
 
-def go_to_capacity_insights(page):
-    print("➡️ Navigating to Capacity Insights")
-    page.get_by_role("button", name="Capacity Insights").click()
-    page.wait_for_selector("text=Capacity Depletion", timeout=15000)
+# def go_to_capacity_insights(page):
+#     print("➡️ Navigating to Capacity Insights")
+#     page.get_by_role("button", name="Capacity Insights").click()
+#     page.wait_for_selector("text=Capacity Depletion", timeout=15000)
 
 
-def go_to_supply_insights(page):
-    print("➡️ Navigating to Supply Insights")
-    page.get_by_role("button", name="Supply Insights").click()
-    page.wait_for_selector("text=Supply Intelligence", timeout=15000)
+# def go_to_supply_insights(page):
+#     print("➡️ Navigating to Supply Insights")
+#     page.get_by_role("button", name="Supply Insights").click()
+#     page.wait_for_selector("text=Supply Intelligence", timeout=15000)
 
 # =======================
 # TILE NAVIGATION
 # =======================
 
 def open_tile(page, tile_name):
+    set_context(micro_application=tile_name)
+
     """
     Open any dashboard tile by name
     """
@@ -99,21 +106,21 @@ def open_reports(page):
 
 
 
-# =======================
-# CAPACITY TILES
-# =======================
+# # =======================
+# # CAPACITY TILES
+# # =======================
 
-def open_capacity_depletion(page):
-    open_tile(page, "Capacity Depletion")
-
-
-# =======================
-# SUPPLY TILES
-# =======================
-
-def open_supply_intelligence(page):
-    open_tile(page, "Supply Intelligence")
+# def open_capacity_depletion(page):
+#     open_tile(page, "Capacity Depletion")
 
 
-def open_supply_risk(page):
-    open_tile(page, "Supply Risk Assessment")
+# # =======================
+# # SUPPLY TILES
+# # =======================
+
+# def open_supply_intelligence(page):
+#     open_tile(page, "Supply Intelligence")
+
+
+# def open_supply_risk(page):
+#     open_tile(page, "Supply Risk Assessment")

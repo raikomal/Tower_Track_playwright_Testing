@@ -2,6 +2,7 @@ import time
 import logging
 import pandas as pd
 from datetime import datetime
+import os
 
 # =========================================================
 # CONFIG
@@ -33,11 +34,20 @@ if not logger.handlers:
 # TEST CONTEXT
 # =========================================================
 TEST_CONTEXT = {
-    "project": "Tower Track",
-    "application": "Part Allocation Insights",
-    "micro_application": "Facility Status Tracker",
-    "title": "Facility Status End-to-End Validation"
+    "project": "Hitachi Tower Track",
+    "application": "",
+    "micro_application": "",
+    "title": ""
 }
+
+def set_context(application=None, micro_application=None, title=None):
+    if application:
+        TEST_CONTEXT["application"] = application
+    if micro_application:
+        TEST_CONTEXT["micro_application"] = micro_application
+    if title:
+        TEST_CONTEXT["title"] = title
+
 
 # =========================================================
 # TEST DATA STORAGE
@@ -170,14 +180,20 @@ def step_press(locator, key, description):
 # =========================================================
 def save_csv():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    # Ensure directory exists
+    output_dir = os.path.join("reports", "final")
+    os.makedirs(output_dir, exist_ok=True)
+
     report_name = f"tower_track_automation_{timestamp}.csv"
+    report_path = os.path.join(output_dir, report_name)
 
     logger.info("📊 Saving CSV report")
     logger.info(f"🧪 Total recorded steps: {len(test_data)}")
 
-    pd.DataFrame(test_data).to_csv(report_name, index=False)
+    pd.DataFrame(test_data).to_csv(report_path, index=False)
 
-    logger.info(f"✅ Report saved as {report_name}")
+    logger.info(f"✅ Report saved at: {report_path}")
 
 
 def wait_for_api(page, url_part):
