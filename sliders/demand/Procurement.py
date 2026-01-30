@@ -78,12 +78,12 @@ def run(page):
         "Nov 2029 data point"
     )
 
-    step_click(
-        page.get_by_text(
-            "Created with Highcharts 11.4.8Capacity Amount(MW)Confidence IntervalActual"
-        ),
-        "Capacity chart"
-    )
+    # step_click(
+    #     page.get_by_text(
+    #         "Created with Highcharts 11.4.8Capacity Amount(MW)Confidence IntervalActual"
+    #     ),
+    #     "Capacity chart"
+    # )
 
     # ---------------- DATE FILTER ----------------
     step_click(

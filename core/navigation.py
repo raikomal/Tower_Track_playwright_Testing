@@ -87,7 +87,9 @@ def open_market_intelligence(page):
 
 def open_demand_intelligence(page):
     logger.info("🔹 Opening tile: Demand Intelligence")
-
+    set_context(
+        micro_application="Demand Intelligence"
+        )
     page.get_by_role("img", name="Demand Intelligence").click()
     page.wait_for_load_state("networkidle")
 

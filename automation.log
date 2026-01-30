@@ -1077,3 +1077,1552 @@ Call log:
 2026-01-29 16:46:57 | INFO | 📊 Saving CSV report
 2026-01-29 16:46:57 | INFO | 🧪 Total recorded steps: 136
 2026-01-29 16:46:57 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260129_164657.csv
+2026-01-29 21:56:36 | INFO | 🔐 Performing login
+2026-01-29 21:56:37 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-29 21:56:38 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-29 21:56:39 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-29 21:56:42 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-29 21:56:46 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-29 21:56:47 | INFO | 📊 Market Intelligence started
+2026-01-29 21:57:52 | INFO | 🖱️ CLICK | USA data point
+2026-01-29 21:58:22 | ERROR | ❌ CLICK FAILED | USA data point | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("img", name=re.compile(r"USA, z:"))
+
+2026-01-29 21:58:22 | INFO | 📊 Saving CSV report
+2026-01-29 21:58:22 | INFO | 🧪 Total recorded steps: 5
+2026-01-29 21:58:22 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260129_215822.csv
+2026-01-29 21:58:47 | INFO | 🔐 Performing login
+2026-01-29 21:58:48 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-29 21:58:49 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-29 21:58:50 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-29 21:58:53 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-29 21:58:56 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-29 21:58:58 | INFO | 📊 Market Intelligence started
+2026-01-29 22:00:03 | INFO | 🖱️ CLICK | USA data point
+2026-01-29 22:00:06 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:00:09 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-29 22:00:12 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-29 22:00:15 | INFO | 🖱️ CLICK | Search competitor
+2026-01-29 22:00:18 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:00:48 | ERROR | ❌ CLICK FAILED | IRL data point | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("img", name=re.compile(r"IRL, z:"))
+
+2026-01-29 22:00:48 | INFO | 📊 Saving CSV report
+2026-01-29 22:00:48 | INFO | 🧪 Total recorded steps: 10
+2026-01-29 22:00:48 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260129_220048.csv
+2026-01-29 22:10:26 | INFO | 🔐 Performing login
+2026-01-29 22:10:27 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-29 22:10:28 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-29 22:10:29 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-29 22:10:30 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-29 22:10:32 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-29 22:10:32 | INFO | 📊 Market Intelligence started
+2026-01-29 22:10:51 | INFO | 🖱️ CLICK | USA data point
+2026-01-29 22:11:03 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:11:04 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-29 22:11:05 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-29 22:11:06 | INFO | 🖱️ CLICK | Search competitor
+2026-01-29 22:11:07 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:11:14 | INFO | 🖱️ CLICK | CHN data point
+2026-01-29 22:11:15 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-29 22:11:16 | INFO | 🖱️ CLICK | Topic discovery chart line
+2026-01-29 22:11:46 | ERROR | ❌ CLICK FAILED | Topic discovery chart line | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".highcharts-series.highcharts-series-4 > .highcharts-tracker-line")
+    - locator resolved to <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 138.28906666667 L 30.755813953488 135.51533333333 L 43.058139534884 142 L 55.360465116279 136.81226666667 L 67.662790697674 140.9208 L 79.96511627907 139.69013333333 L 92.267441860465 134.37933333333 L 104.56976744186 134.79586666667 L 116.87209302326 139.1884 L 129.17441860465 136.…></path>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 134.57813333333 L 30.755813953488 131.62453333333 L 43.058139534884 135.93186666667 L 55.360465116279 134.2184 L 67.662790697674 138.77186666667 L 79.96511627907 135.0704 L 92.267441860465 132.202 L 104.56976744186 130.67786666667 L 116.87209302326 135.4396 L 129.17441860465 131.984…></path> from <g opacity="1" data-z-index="0.1" aria-hidden="true" transform="translate(79,10) scale(1 1)" clip-path="url(#highcharts-cfjyxma-974-)" class="highcharts-series highcharts-series-3 highcharts-area-series">…</g> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 134.57813333333 L 30.755813953488 131.62453333333 L 43.058139534884 135.93186666667 L 55.360465116279 134.2184 L 67.662790697674 138.77186666667 L 79.96511627907 135.0704 L 92.267441860465 132.202 L 104.56976744186 130.67786666667 L 116.87209302326 135.4396 L 129.17441860465 131.984…></path> from <g opacity="1" data-z-index="0.1" aria-hidden="true" transform="translate(79,10) scale(1 1)" clip-path="url(#highcharts-cfjyxma-974-)" class="highcharts-series highcharts-series-3 highcharts-area-series">…</g> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    13 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 134.57813333333 L 30.755813953488 131.62453333333 L 43.058139534884 135.93186666667 L 55.360465116279 134.2184 L 67.662790697674 138.77186666667 L 79.96511627907 135.0704 L 92.267441860465 132.202 L 104.56976744186 130.67786666667 L 116.87209302326 135.4396 L 129.17441860465 131.984…></path> from <g opacity="1" data-z-index="0.1" aria-hidden="true" transform="translate(79,10) scale(1 1)" clip-path="url(#highcharts-cfjyxma-974-)" class="highcharts-series highcharts-series-3 highcharts-area-series">…</g> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="#ffffff" stroke-width="1" stroke="#38C3FF" class="highcharts-label-box" d="M 3.5 0.5 L 265.5 0.5 A 3 3 0 0 1 268.5 3.5 L 268.5 28.5 A 3 3 0 0 1 265.5 31.5 L 3.5 31.5 A 3 3 0 0 1 0.5 28.5 L 0.5 15.5 L -16.5 25.02906666666999 L 0.5 15.5 L 0.5 3.5 A 3 3 0 0 1 3.5 0.5 Z"></path> from <g opacity="1" data-z-index="8" aria-hidden="true" class="highcharts-tooltip" filter="url(#highcharts-drop-shadow-8)">…</g> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    6 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 134.57813333333 L 30.755813953488 131.62453333333 L 43.058139534884 135.93186666667 L 55.360465116279 134.2184 L 67.662790697674 138.77186666667 L 79.96511627907 135.0704 L 92.267441860465 132.202 L 104.56976744186 130.67786666667 L 116.87209302326 135.4396 L 129.17441860465 131.984…></path> from <g opacity="1" data-z-index="0.1" aria-hidden="true" transform="translate(79,10) scale(1 1)" clip-path="url(#highcharts-cfjyxma-974-)" class="highcharts-series highcharts-series-3 highcharts-area-series">…</g> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <path fill="#ffffff" stroke-width="1" stroke="#38C3FF" class="highcharts-label-box" d="M 3.5 0.5 L 247.5 0.5 A 3 3 0 0 1 250.5 3.5 L 250.5 15.5 L 266.5 -3.8666666666699996 L 250.5 15.5 L 250.5 28.5 A 3 3 0 0 1 247.5 31.5 L 3.5 31.5 A 3 3 0 0 1 0.5 28.5 L 0.5 3.5 A 3 3 0 0 1 3.5 0.5 Z"></path> from <g opacity="1" data-z-index="8" aria-hidden="true" class="highcharts-tooltip" filter="url(#highcharts-drop-shadow-8)">…</g> subtree intercepts pointer events
+  33 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <path fill="none" data-z-index="2" stroke-width="21" stroke-linecap="round" stroke-linejoin="round" class="highcharts-tracker-line" stroke="rgba(192,192,192,0.0001)" d="M 6.1511627906977 141.16693333333 L 18.453488372093 134.57813333333 L 30.755813953488 131.62453333333 L 43.058139534884 135.93186666667 L 55.360465116279 134.2184 L 67.662790697674 138.77186666667 L 79.96511627907 135.0704 L 92.267441860465 132.202 L 104.56976744186 130.67786666667 L 116.87209302326 135.4396 L 129.17441860465 131.984…></path> from <g opacity="1" data-z-index="0.1" aria-hidden="true" transform="translate(79,10) scale(1 1)" clip-path="url(#highcharts-cfjyxma-974-)" class="highcharts-series highcharts-series-3 highcharts-area-series">…</g> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+2026-01-29 22:11:46 | INFO | 📊 Saving CSV report
+2026-01-29 22:11:46 | INFO | 🧪 Total recorded steps: 13
+2026-01-29 22:11:46 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260129_221146.csv
+2026-01-29 22:12:38 | INFO | 🔐 Performing login
+2026-01-29 22:12:39 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-29 22:12:40 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-29 22:12:41 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-29 22:12:43 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-29 22:12:44 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-29 22:12:44 | INFO | 📊 Market Intelligence started
+2026-01-29 22:13:15 | INFO | 🖱️ CLICK | USA data point
+2026-01-29 22:13:17 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:13:18 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-29 22:13:19 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-29 22:13:20 | INFO | 🖱️ CLICK | Search competitor
+2026-01-29 22:13:21 | INFO | 🖱️ CLICK | IRL data point
+2026-01-29 22:13:29 | INFO | 🖱️ CLICK | CHN data point
+2026-01-29 22:13:30 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-29 22:13:31 | INFO | 🖱️ CLICK | Chart expand
+2026-01-29 22:13:32 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-29 22:13:33 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-29 22:13:34 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-29 22:13:35 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-29 22:13:36 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-29 22:13:37 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-29 22:13:38 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-29 22:13:41 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-29 22:13:42 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-29 22:13:45 | INFO | 📊 Market Indicator popup opened
+2026-01-29 22:13:57 | INFO | ❌ Market Indicator popup closed
+2026-01-29 22:13:58 | INFO | 🖱️ CLICK | Home menu
+2026-01-29 22:13:58 | INFO | ✅ Market Intelligence completed
+2026-01-29 22:13:58 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-29 22:13:58 | INFO | 📈 Demand Intelligence started
+2026-01-29 22:14:02 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-29 22:14:03 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-29 22:14:04 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-29 22:14:05 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-29 22:14:06 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-29 22:14:07 | INFO | 🖱️ CLICK | Open date filter
+2026-01-29 22:14:09 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-29 22:14:10 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-29 22:14:11 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-29 22:14:12 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-29 22:14:13 | INFO | 🖱️ CLICK | Search demand data
+2026-01-29 22:14:15 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-29 22:14:18 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-29 22:14:19 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-29 22:14:20 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-29 22:14:21 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-29 22:14:22 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-29 22:14:24 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-29 22:14:25 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-29 22:14:26 | INFO | 🖱️ CLICK | Search factor data
+2026-01-29 22:14:27 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-29 22:14:28 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-29 22:14:29 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-29 22:14:30 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-29 22:14:31 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-29 22:14:33 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-29 22:14:34 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-29 22:14:35 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-29 22:14:36 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-29 22:14:37 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-29 22:14:39 | INFO | 🖱️ CLICK | Search retail data
+2026-01-29 22:14:40 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-29 22:14:41 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-29 22:14:41 | INFO | ✅ Demand Intelligence completed
+2026-01-29 22:14:41 | INFO | 🧾 Procurement started
+2026-01-29 22:14:44 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-29 22:14:48 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-29 22:14:49 | INFO | 🖱️ CLICK | Capacity chart
+2026-01-29 22:15:19 | ERROR | ❌ CLICK FAILED | Capacity chart | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text("Created with Highcharts 11.4.8Capacity Amount(MW)Confidence IntervalActual")
+
+2026-01-29 22:15:19 | INFO | 📊 Saving CSV report
+2026-01-29 22:15:19 | INFO | 🧪 Total recorded steps: 59
+2026-01-29 22:15:19 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260129_221519.csv
+2026-01-30 10:52:54 | INFO | 🔐 Performing login
+2026-01-30 10:52:55 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 10:52:56 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 10:52:57 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 10:52:58 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 10:52:59 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 10:52:59 | INFO | 📊 Market Intelligence started
+2026-01-30 10:53:52 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 10:53:59 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 10:54:00 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 10:54:01 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 10:54:02 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 10:54:03 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 10:54:20 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 10:54:21 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 10:54:22 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 10:54:23 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 10:54:24 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 10:54:25 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 10:54:26 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 10:54:27 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 10:54:28 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 10:54:29 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 10:54:32 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 10:54:33 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 10:54:36 | INFO | 📊 Market Indicator popup opened
+2026-01-30 10:54:49 | INFO | ❌ Market Indicator popup closed
+2026-01-30 10:54:50 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 10:54:50 | INFO | ✅ Market Intelligence completed
+2026-01-30 10:54:50 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 10:54:50 | INFO | 📈 Demand Intelligence started
+2026-01-30 10:54:53 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 10:54:55 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 10:54:56 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 10:54:57 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 10:54:58 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 10:54:59 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 10:55:01 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 10:55:02 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 10:55:03 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 10:55:04 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 10:55:05 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 10:55:06 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 10:55:10 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 10:55:11 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 10:55:12 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 10:55:13 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 10:55:14 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 10:55:15 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 10:55:16 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 10:55:17 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 10:55:18 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 10:55:20 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 10:55:21 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 10:55:22 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 10:55:23 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 10:55:24 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 10:55:25 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 10:55:26 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 10:55:27 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 10:55:28 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 10:55:30 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 10:55:31 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 10:55:32 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 10:55:32 | INFO | ✅ Demand Intelligence completed
+2026-01-30 10:55:32 | INFO | 🧾 Procurement started
+2026-01-30 10:55:34 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 10:55:36 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 10:55:37 | INFO | 🖱️ CLICK | Capacity chart
+2026-01-30 10:56:07 | ERROR | ❌ CLICK FAILED | Capacity chart | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_text("Created with Highcharts 11.4.8Capacity Amount(MW)Confidence IntervalActual")
+
+2026-01-30 10:56:07 | INFO | 📊 Saving CSV report
+2026-01-30 10:56:07 | INFO | 🧪 Total recorded steps: 59
+2026-01-30 10:56:07 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_105607.csv
+2026-01-30 10:57:06 | INFO | 🔐 Performing login
+2026-01-30 10:57:07 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 10:57:08 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 10:57:09 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 10:57:10 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 10:57:11 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 10:57:11 | INFO | 📊 Market Intelligence started
+2026-01-30 10:57:31 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 10:57:43 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 10:57:44 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 10:57:45 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 10:57:46 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 10:57:47 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 10:57:57 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 10:57:59 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 10:58:00 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 10:58:01 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 10:58:02 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 10:58:03 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 10:58:04 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 10:58:05 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 10:58:06 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 10:58:07 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 10:58:09 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 10:58:10 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 10:58:12 | INFO | 📊 Market Indicator popup opened
+2026-01-30 10:58:25 | INFO | ❌ Market Indicator popup closed
+2026-01-30 10:58:26 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 10:58:26 | INFO | ✅ Market Intelligence completed
+2026-01-30 10:58:26 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 10:58:26 | INFO | 📈 Demand Intelligence started
+2026-01-30 10:58:29 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 10:58:30 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 10:58:31 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 10:58:32 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 10:58:33 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 10:58:34 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 10:58:35 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 10:58:36 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 10:58:38 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 10:58:39 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 10:58:40 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 10:58:41 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 10:58:44 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 10:58:45 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 10:58:46 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 10:58:47 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 10:58:49 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 10:58:50 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 10:58:51 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 10:58:52 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 10:58:53 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 10:58:54 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 10:58:55 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 10:58:56 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 10:58:57 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 10:58:58 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 10:59:00 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 10:59:01 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 10:59:02 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 10:59:03 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 10:59:04 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 10:59:05 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 10:59:06 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 10:59:06 | INFO | ✅ Demand Intelligence completed
+2026-01-30 10:59:06 | INFO | 🧾 Procurement started
+2026-01-30 10:59:08 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 10:59:12 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 10:59:13 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 10:59:14 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 10:59:15 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 10:59:16 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 10:59:17 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 10:59:18 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 10:59:19 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 10:59:22 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 10:59:23 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 10:59:25 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 10:59:26 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 10:59:27 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 10:59:28 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 10:59:29 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 10:59:30 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 10:59:31 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 10:59:35 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 10:59:36 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 10:59:36 | INFO | ✅ Procurement completed
+2026-01-30 10:59:37 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 10:59:37 | INFO | 💰 Pricing Optimization started
+2026-01-30 10:59:38 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 10:59:39 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 10:59:40 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 10:59:41 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 10:59:42 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 10:59:43 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 10:59:44 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 10:59:45 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 10:59:46 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 10:59:48 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 10:59:49 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 10:59:50 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 10:59:51 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 10:59:52 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 10:59:53 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 10:59:54 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 10:59:55 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 10:59:56 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 10:59:57 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 10:59:58 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 10:59:59 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 11:00:00 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 11:00:01 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 11:00:02 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 11:00:03 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 11:00:03 | INFO | ✅ Pricing Optimization completed
+2026-01-30 11:00:04 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 11:00:04 | INFO | 📑 Reports started
+2026-01-30 11:00:05 | INFO | 🖱️ CLICK | Go button
+2026-01-30 11:00:07 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 11:00:37 | ERROR | ❌ CLICK FAILED | Identified Trends | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Identified Trends")
+
+2026-01-30 11:00:37 | INFO | 📊 Saving CSV report
+2026-01-30 11:00:37 | INFO | 🧪 Total recorded steps: 105
+2026-01-30 11:00:37 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_110037.csv
+2026-01-30 11:02:23 | INFO | 🔐 Performing login
+2026-01-30 11:02:24 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 11:02:25 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 11:02:26 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 11:02:27 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 11:02:29 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 11:02:29 | INFO | 📊 Market Intelligence started
+2026-01-30 11:03:20 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 11:03:21 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:03:22 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 11:03:23 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 11:03:24 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 11:03:25 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:03:37 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 11:03:38 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 11:03:39 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 11:03:40 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 11:03:41 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 11:03:42 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 11:03:43 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 11:03:44 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 11:03:45 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 11:03:46 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 11:03:48 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 11:03:49 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 11:03:56 | INFO | 📊 Market Indicator popup opened
+2026-01-30 11:04:10 | INFO | ❌ Market Indicator popup closed
+2026-01-30 11:04:11 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 11:04:11 | INFO | ✅ Market Intelligence completed
+2026-01-30 11:04:11 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 11:04:11 | INFO | 📈 Demand Intelligence started
+2026-01-30 11:04:14 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 11:04:15 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 11:04:16 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 11:04:17 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 11:04:18 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 11:04:19 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 11:04:21 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 11:04:22 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 11:04:23 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 11:04:24 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 11:04:25 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 11:04:26 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 11:04:30 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 11:04:31 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 11:04:32 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 11:04:33 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 11:04:34 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 11:04:35 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 11:04:36 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 11:04:37 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 11:04:38 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 11:04:39 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 11:04:40 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 11:04:42 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 11:04:43 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 11:04:44 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 11:04:45 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 11:04:46 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 11:04:47 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 11:04:48 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 11:04:49 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 11:04:51 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 11:04:52 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 11:04:52 | INFO | ✅ Demand Intelligence completed
+2026-01-30 11:04:52 | INFO | 🧾 Procurement started
+2026-01-30 11:04:54 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 11:04:57 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 11:04:58 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 11:04:59 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 11:05:00 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 11:05:01 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 11:05:02 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 11:05:03 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 11:05:04 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 11:05:08 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 11:05:09 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 11:05:10 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 11:05:11 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 11:05:12 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 11:05:13 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 11:05:14 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 11:05:15 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 11:05:16 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 11:05:20 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 11:05:21 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 11:05:21 | INFO | ✅ Procurement completed
+2026-01-30 11:05:22 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 11:05:22 | INFO | 💰 Pricing Optimization started
+2026-01-30 11:05:24 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 11:05:25 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 11:05:26 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 11:05:27 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 11:05:28 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 11:05:29 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 11:05:30 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 11:05:31 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 11:05:32 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 11:05:33 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 11:05:34 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 11:05:35 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 11:05:36 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 11:05:37 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 11:05:38 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 11:05:39 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 11:05:40 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 11:05:41 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 11:05:42 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 11:05:43 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 11:05:44 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 11:05:45 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 11:05:46 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 11:05:47 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 11:05:48 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 11:05:48 | INFO | ✅ Pricing Optimization completed
+2026-01-30 11:05:49 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 11:05:50 | INFO | 📑 Reports started
+2026-01-30 11:05:51 | INFO | 🖱️ CLICK | Go button
+2026-01-30 11:05:53 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 11:05:54 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 11:05:55 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:05:56 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 11:05:58 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 11:06:00 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 11:06:01 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 11:06:03 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 11:06:04 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 11:06:06 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 11:06:07 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:06:09 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 11:06:10 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 11:06:11 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 11:06:12 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 11:06:14 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 11:06:15 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 11:06:16 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 11:06:17 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 11:06:18 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 11:06:19 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 11:06:20 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 11:06:21 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:06:22 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:06:23 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 11:06:26 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 11:06:28 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 11:06:30 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:06:32 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:06:32 | INFO | ✅ Reports completed
+2026-01-30 11:06:33 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 11:07:03 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 11:07:03 | INFO | 📊 Saving CSV report
+2026-01-30 11:07:03 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 11:07:03 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_110703.csv
+2026-01-30 11:37:46 | INFO | 🔐 Performing login
+2026-01-30 11:37:47 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 11:37:48 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 11:37:49 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 11:37:50 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 11:37:52 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 11:37:52 | INFO | 📊 Market Intelligence started
+2026-01-30 11:38:23 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 11:38:24 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:38:25 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 11:38:26 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 11:38:28 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 11:38:29 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:38:38 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 11:38:39 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 11:38:40 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 11:38:41 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 11:38:42 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 11:38:43 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 11:38:44 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 11:38:45 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 11:38:46 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 11:38:47 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 11:38:49 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 11:38:50 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 11:38:55 | INFO | 📊 Market Indicator popup opened
+2026-01-30 11:39:07 | INFO | ❌ Market Indicator popup closed
+2026-01-30 11:39:08 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 11:39:08 | INFO | ✅ Market Intelligence completed
+2026-01-30 11:39:08 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 11:39:08 | INFO | 📈 Demand Intelligence started
+2026-01-30 11:39:11 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 11:39:12 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 11:39:13 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 11:39:14 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 11:39:15 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 11:39:16 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 11:39:17 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 11:39:18 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 11:39:19 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 11:39:21 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 11:39:22 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 11:39:23 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 11:39:26 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 11:39:27 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 11:39:28 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 11:39:29 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 11:39:30 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 11:39:31 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 11:39:32 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 11:39:34 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 11:39:35 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 11:39:36 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 11:39:37 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 11:39:38 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 11:39:39 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 11:39:40 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 11:39:41 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 11:39:42 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 11:39:43 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 11:39:45 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 11:39:46 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 11:39:47 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 11:39:48 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 11:39:48 | INFO | ✅ Demand Intelligence completed
+2026-01-30 11:39:48 | INFO | 🧾 Procurement started
+2026-01-30 11:39:49 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 11:39:53 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 11:39:54 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 11:39:55 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 11:39:56 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 11:39:57 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 11:39:58 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 11:39:59 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 11:40:00 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 11:40:03 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 11:40:04 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 11:40:06 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 11:40:07 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 11:40:08 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 11:40:09 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 11:40:10 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 11:40:11 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 11:40:12 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 11:40:16 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 11:40:17 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 11:40:17 | INFO | ✅ Procurement completed
+2026-01-30 11:40:18 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 11:40:18 | INFO | 💰 Pricing Optimization started
+2026-01-30 11:40:19 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 11:40:20 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 11:40:21 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 11:40:22 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 11:40:23 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 11:40:24 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 11:40:25 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 11:40:26 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 11:40:27 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 11:40:28 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 11:40:29 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 11:40:30 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 11:40:31 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 11:40:32 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 11:40:33 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 11:40:34 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 11:40:35 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 11:40:36 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 11:40:38 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 11:40:39 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 11:40:40 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 11:40:41 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 11:40:42 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 11:40:43 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 11:40:44 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 11:40:44 | INFO | ✅ Pricing Optimization completed
+2026-01-30 11:40:45 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 11:40:45 | INFO | 📑 Reports started
+2026-01-30 11:40:46 | INFO | 🖱️ CLICK | Go button
+2026-01-30 11:40:48 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 11:40:49 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 11:40:50 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:40:51 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 11:40:53 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 11:40:55 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 11:40:56 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 11:40:59 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 11:41:00 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 11:41:01 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 11:41:02 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:41:04 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 11:41:05 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 11:41:06 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 11:41:07 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 11:41:09 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 11:41:10 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 11:41:11 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 11:41:12 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 11:41:13 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 11:41:15 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 11:41:16 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 11:41:17 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:41:18 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:41:19 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 11:41:21 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 11:41:23 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 11:41:25 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 11:41:27 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 11:41:27 | INFO | ✅ Reports completed
+2026-01-30 11:41:28 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 11:41:58 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 11:41:58 | INFO | 📊 Saving CSV report
+2026-01-30 11:41:58 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 11:41:58 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_114158.csv
+2026-01-30 11:53:50 | INFO | 🔐 Performing login
+2026-01-30 11:53:51 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 11:53:52 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 11:53:54 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 11:53:55 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 11:53:56 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 11:53:57 | INFO | 📊 Market Intelligence started
+2026-01-30 11:54:29 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 11:54:30 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:54:31 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 11:54:32 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 11:54:33 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 11:54:35 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 11:54:47 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 11:54:48 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 11:54:49 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 11:54:50 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 11:54:51 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 11:54:52 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 11:54:54 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 11:54:55 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 11:54:56 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 11:54:57 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 11:54:59 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 11:55:00 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 11:55:04 | INFO | 📊 Market Indicator popup opened
+2026-01-30 11:55:17 | INFO | ❌ Market Indicator popup closed
+2026-01-30 11:55:18 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 11:55:18 | INFO | ✅ Market Intelligence completed
+2026-01-30 11:55:18 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 11:55:18 | INFO | 📈 Demand Intelligence started
+2026-01-30 11:55:22 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 11:55:23 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 11:55:24 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 11:55:25 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 11:55:26 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 11:55:27 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 11:55:28 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 11:55:30 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 11:55:31 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 11:55:32 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 11:55:33 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 11:55:34 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 11:55:37 | ERROR | ❌ CLICK FAILED | Aug 2027 data point | Locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("img", name="Aug-2027, 117,044.2335791888")
+    - locator resolved to <path role="img" opacity="1" filter="none" tabindex="-1" fill="#F48FB1" stroke="#ffffff" stroke-width="0" class="highcharts-point" aria-label="Aug-2027, 117,044.2335791888. Predicted Power Usage." d="M 907 46 L 907 46 A 3 3 0 0 1 910 49 L 910 211 A 0 0 0 0 1 910 211 L 904 211 A 0 0 0 0 1 904 211 L 904 49 A 3 3 0 0 1 907 46 Z"></path>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not stable
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is not stable
+  - retrying click action
+    - waiting 100ms
+    - waiting for element to be visible, enabled and stable
+
+2026-01-30 11:55:37 | INFO | 📊 Saving CSV report
+2026-01-30 11:55:37 | INFO | 🧪 Total recorded steps: 35
+2026-01-30 11:55:37 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_115537.csv
+2026-01-30 12:38:36 | INFO | 🔐 Performing login
+2026-01-30 12:38:37 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 12:38:38 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 12:38:40 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 12:38:41 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 12:38:42 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 12:38:43 | INFO | 📊 Market Intelligence started
+2026-01-30 12:39:45 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 12:40:14 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:40:15 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 12:40:16 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 12:40:17 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 12:40:19 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:40:39 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 12:40:40 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 12:40:42 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 12:40:43 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 12:40:44 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 12:40:45 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 12:40:46 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 12:40:47 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 12:40:48 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 12:40:49 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 12:40:51 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 12:40:52 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 12:40:57 | INFO | 📊 Market Indicator popup opened
+2026-01-30 12:41:06 | INFO | ❌ Market Indicator popup closed
+2026-01-30 12:41:07 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 12:41:08 | INFO | ✅ Market Intelligence completed
+2026-01-30 12:41:08 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 12:41:08 | INFO | 📈 Demand Intelligence started
+2026-01-30 12:41:10 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 12:41:11 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 12:41:12 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 12:41:13 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 12:41:15 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 12:41:16 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:41:17 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:41:18 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 12:41:19 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:41:20 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:41:21 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 12:41:22 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 12:41:26 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 12:41:27 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 12:41:28 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 12:41:29 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 12:41:30 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 12:41:31 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 12:41:32 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 12:41:33 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 12:41:35 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 12:41:36 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 12:41:37 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 12:41:38 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 12:41:39 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 12:41:40 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 12:41:41 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 12:41:42 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 12:41:43 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 12:41:44 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 12:41:46 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 12:41:47 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 12:41:48 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 12:41:48 | INFO | ✅ Demand Intelligence completed
+2026-01-30 12:41:48 | INFO | 🧾 Procurement started
+2026-01-30 12:41:49 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 12:41:53 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 12:41:54 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:41:55 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:41:56 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 12:41:57 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:41:58 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:41:59 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 12:42:00 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 12:42:04 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 12:42:05 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 12:42:06 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 12:42:07 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 12:42:08 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 12:42:09 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 12:42:10 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 12:42:11 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 12:42:12 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 12:42:16 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 12:42:17 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 12:42:17 | INFO | ✅ Procurement completed
+2026-01-30 12:42:18 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 12:42:18 | INFO | 💰 Pricing Optimization started
+2026-01-30 12:42:19 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 12:42:20 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 12:42:22 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 12:42:23 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 12:42:24 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 12:42:25 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 12:42:26 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 12:42:27 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 12:42:28 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 12:42:29 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 12:42:30 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 12:42:31 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 12:42:32 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 12:42:33 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 12:42:34 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 12:42:35 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 12:42:36 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 12:42:37 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 12:42:38 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 12:42:39 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 12:42:40 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 12:42:41 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 12:42:42 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 12:42:43 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 12:42:44 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 12:42:44 | INFO | ✅ Pricing Optimization completed
+2026-01-30 12:42:45 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 12:42:45 | INFO | 📑 Reports started
+2026-01-30 12:42:47 | INFO | 🖱️ CLICK | Go button
+2026-01-30 12:42:49 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 12:43:19 | ERROR | ❌ CLICK FAILED | Identified Trends | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Identified Trends")
+
+2026-01-30 12:43:19 | INFO | 📊 Saving CSV report
+2026-01-30 12:43:19 | INFO | 🧪 Total recorded steps: 105
+2026-01-30 12:43:19 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_124319.csv
+2026-01-30 12:45:23 | INFO | 🔐 Performing login
+2026-01-30 12:45:24 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 12:45:25 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 12:45:26 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 12:45:27 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 12:45:28 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 12:45:28 | INFO | 📊 Market Intelligence started
+2026-01-30 12:46:17 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 12:46:19 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:46:20 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 12:46:21 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 12:46:22 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 12:46:23 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:46:31 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 12:46:32 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 12:46:33 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 12:46:34 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 12:46:35 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 12:46:36 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 12:46:37 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 12:46:38 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 12:46:39 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 12:46:40 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 12:46:44 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 12:46:45 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 12:46:48 | INFO | 📊 Market Indicator popup opened
+2026-01-30 12:46:56 | INFO | ❌ Market Indicator popup closed
+2026-01-30 12:46:57 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 12:46:57 | INFO | ✅ Market Intelligence completed
+2026-01-30 12:46:57 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 12:46:57 | INFO | 📈 Demand Intelligence started
+2026-01-30 12:46:59 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 12:47:01 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 12:47:02 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 12:47:03 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 12:47:04 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 12:47:05 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:47:06 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:47:07 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 12:47:08 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:47:09 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:47:11 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 12:47:12 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 12:47:15 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 12:47:16 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 12:47:17 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 12:47:18 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 12:47:19 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 12:47:20 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 12:47:22 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 12:47:23 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 12:47:24 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 12:47:25 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 12:47:26 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 12:47:27 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 12:47:28 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 12:47:29 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 12:47:30 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 12:47:32 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 12:47:33 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 12:47:34 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 12:47:35 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 12:47:36 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 12:47:37 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 12:47:37 | INFO | ✅ Demand Intelligence completed
+2026-01-30 12:47:37 | INFO | 🧾 Procurement started
+2026-01-30 12:47:39 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 12:47:42 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 12:47:43 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:47:44 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:47:45 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 12:47:46 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:47:47 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:47:48 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 12:47:49 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 12:47:53 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 12:47:54 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 12:47:55 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 12:47:56 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 12:47:57 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 12:47:58 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 12:47:59 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 12:48:00 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 12:48:01 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 12:48:05 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 12:48:06 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 12:48:06 | INFO | ✅ Procurement completed
+2026-01-30 12:48:07 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 12:48:07 | INFO | 💰 Pricing Optimization started
+2026-01-30 12:48:08 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 12:48:09 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 12:48:10 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 12:48:11 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 12:48:12 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 12:48:13 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 12:48:14 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 12:48:15 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 12:48:16 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 12:48:17 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 12:48:18 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 12:48:19 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 12:48:20 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 12:48:22 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 12:48:23 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 12:48:24 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 12:48:25 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 12:48:26 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 12:48:27 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 12:48:28 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 12:48:29 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 12:48:30 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 12:48:31 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 12:48:32 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 12:48:33 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 12:48:33 | INFO | ✅ Pricing Optimization completed
+2026-01-30 12:48:34 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 12:48:34 | INFO | 📑 Reports started
+2026-01-30 12:48:35 | INFO | 🖱️ CLICK | Go button
+2026-01-30 12:48:37 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 12:48:53 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 12:48:54 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:48:56 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 12:48:57 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 12:48:58 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 12:48:59 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 12:49:03 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 12:49:04 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 12:49:05 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 12:49:06 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:49:07 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 12:49:08 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 12:49:09 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 12:49:10 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 12:49:12 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 12:49:13 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 12:49:14 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 12:49:15 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 12:49:16 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 12:49:18 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 12:49:19 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 12:49:20 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:49:21 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:49:22 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 12:49:24 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 12:49:25 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 12:49:26 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:49:27 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:49:27 | INFO | ✅ Reports completed
+2026-01-30 12:49:28 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 12:49:58 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 12:49:58 | INFO | 📊 Saving CSV report
+2026-01-30 12:49:58 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 12:49:58 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_124958.csv
+2026-01-30 12:54:15 | INFO | 🔐 Performing login
+2026-01-30 12:54:16 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 12:54:17 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 12:54:18 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 12:54:19 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 12:54:20 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 12:54:20 | INFO | 📊 Market Intelligence started
+2026-01-30 12:54:41 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 12:55:11 | ERROR | ❌ CLICK FAILED | USA data point | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("img", name=re.compile(r"USA, z:"))
+    - locator resolved to <path role="img" opacity="1" tabindex="-1" stroke="#FFA823" stroke-width="1" fill="rgba(255,168,35,0.5)" aria-label="USA, z: 5,114. Data Points." class="highcharts-point highcharts-color-1" d="M 121.5 92.08365452504444 A 16.5 16.5 0 1 1 121.50019999999999 92.08365452383231 Z"></path>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-controls="radix-:r1:" class="flex items-center justify-between w-full text-white cursor-pointer rounded-lg">…</button> from <div>…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <button type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-controls="radix-:r1:" class="flex items-center justify-between w-full text-white cursor-pointer rounded-lg">…</button> from <div>…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    55 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <button type="button" data-state="closed" aria-expanded="false" aria-haspopup="dialog" aria-controls="radix-:r1:" class="flex items-center justify-between w-full text-white cursor-pointer rounded-lg">…</button> from <div>…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2026-01-30 12:55:11 | INFO | 📊 Saving CSV report
+2026-01-30 12:55:11 | INFO | 🧪 Total recorded steps: 5
+2026-01-30 12:55:11 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_125511.csv
+2026-01-30 12:56:05 | INFO | 🔐 Performing login
+2026-01-30 12:56:06 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 12:56:07 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 12:56:08 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 12:56:09 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 12:56:10 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 12:56:10 | INFO | 📊 Market Intelligence started
+2026-01-30 12:56:24 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 12:56:28 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:56:29 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 12:56:30 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 12:56:31 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 12:56:32 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 12:56:42 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 12:56:43 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 12:56:44 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 12:56:45 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 12:56:46 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 12:56:47 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 12:56:48 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 12:56:49 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 12:56:50 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 12:56:51 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 12:56:54 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 12:56:55 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 12:56:58 | INFO | 📊 Market Indicator popup opened
+2026-01-30 12:57:07 | INFO | ❌ Market Indicator popup closed
+2026-01-30 12:57:08 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 12:57:08 | INFO | ✅ Market Intelligence completed
+2026-01-30 12:57:08 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 12:57:08 | INFO | 📈 Demand Intelligence started
+2026-01-30 12:57:10 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 12:57:13 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 12:57:14 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 12:57:15 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 12:57:16 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 12:57:17 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:57:18 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:57:19 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 12:57:20 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:57:21 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:57:22 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 12:57:24 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 12:57:27 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 12:57:28 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 12:57:29 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 12:57:30 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 12:57:31 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 12:57:32 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 12:57:34 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 12:57:35 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 12:57:36 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 12:57:37 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 12:57:38 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 12:57:39 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 12:57:40 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 12:57:41 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 12:57:42 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 12:57:43 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 12:57:45 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 12:57:46 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 12:57:47 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 12:57:48 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 12:57:49 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 12:57:49 | INFO | ✅ Demand Intelligence completed
+2026-01-30 12:57:49 | INFO | 🧾 Procurement started
+2026-01-30 12:57:51 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 12:57:54 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 12:57:55 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 12:57:56 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 12:57:57 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 12:57:58 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 12:57:59 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 12:58:00 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 12:58:01 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 12:58:06 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 12:58:07 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 12:58:08 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 12:58:09 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 12:58:10 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 12:58:11 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 12:58:12 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 12:58:13 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 12:58:14 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 12:58:18 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 12:58:19 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 12:58:19 | INFO | ✅ Procurement completed
+2026-01-30 12:58:20 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 12:58:20 | INFO | 💰 Pricing Optimization started
+2026-01-30 12:58:21 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 12:58:22 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 12:58:23 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 12:58:24 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 12:58:25 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 12:58:26 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 12:58:27 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 12:58:28 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 12:58:29 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 12:58:30 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 12:58:31 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 12:58:32 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 12:58:34 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 12:58:35 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 12:58:36 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 12:58:37 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 12:58:38 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 12:58:39 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 12:58:40 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 12:58:41 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 12:58:42 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 12:58:43 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 12:58:44 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 12:58:45 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 12:58:46 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 12:58:46 | INFO | ✅ Pricing Optimization completed
+2026-01-30 12:58:47 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 12:58:47 | INFO | 📑 Reports started
+2026-01-30 12:58:48 | INFO | 🖱️ CLICK | Go button
+2026-01-30 12:58:50 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 12:58:51 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 12:58:52 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:58:53 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 12:58:54 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 12:58:55 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 12:58:56 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 12:58:59 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 12:59:00 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 12:59:01 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 12:59:02 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:59:03 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 12:59:04 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 12:59:05 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 12:59:06 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 12:59:08 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 12:59:09 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 12:59:11 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 12:59:12 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 12:59:13 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 12:59:14 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 12:59:15 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 12:59:16 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:59:17 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:59:18 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 12:59:20 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 12:59:21 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 12:59:22 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 12:59:23 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 12:59:23 | INFO | ✅ Reports completed
+2026-01-30 12:59:24 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 12:59:54 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 12:59:54 | INFO | 📊 Saving CSV report
+2026-01-30 12:59:54 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 12:59:54 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_125954.csv
+2026-01-30 13:43:54 | INFO | 🔐 Performing login
+2026-01-30 13:43:55 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 13:43:56 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 13:43:58 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 13:43:59 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 13:44:00 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 13:44:00 | INFO | 📊 Market Intelligence started
+2026-01-30 13:44:23 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 13:44:27 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 13:44:28 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 13:44:29 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 13:44:30 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 13:44:31 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 13:44:43 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 13:44:44 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 13:44:45 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 13:44:47 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 13:44:48 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 13:44:49 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 13:44:50 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 13:44:51 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 13:44:52 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 13:44:53 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 13:44:55 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 13:44:56 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 13:44:58 | INFO | 📊 Market Indicator popup opened
+2026-01-30 13:45:07 | INFO | ❌ Market Indicator popup closed
+2026-01-30 13:45:08 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 13:45:08 | INFO | ✅ Market Intelligence completed
+2026-01-30 13:45:08 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 13:45:08 | INFO | 📈 Demand Intelligence started
+2026-01-30 13:45:10 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 13:45:11 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 13:45:13 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 13:45:14 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 13:45:15 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 13:45:16 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 13:45:17 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 13:45:18 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 13:45:19 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 13:45:20 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 13:45:22 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 13:45:23 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 13:45:26 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 13:45:27 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 13:45:28 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 13:45:29 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 13:45:30 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 13:45:31 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 13:45:33 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 13:45:34 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 13:45:35 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 13:45:36 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 13:45:37 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 13:45:38 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 13:45:39 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 13:45:40 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 13:45:41 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 13:45:43 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 13:45:44 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 13:45:45 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 13:45:46 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 13:45:47 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 13:45:48 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 13:45:48 | INFO | ✅ Demand Intelligence completed
+2026-01-30 13:45:48 | INFO | 🧾 Procurement started
+2026-01-30 13:45:49 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 13:45:53 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 13:45:54 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 13:45:55 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 13:45:56 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 13:45:57 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 13:45:58 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 13:45:59 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 13:46:00 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 13:46:04 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 13:46:05 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 13:46:06 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 13:46:07 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 13:46:08 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 13:46:09 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 13:46:10 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 13:46:11 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 13:46:12 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 13:46:16 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 13:46:17 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 13:46:17 | INFO | ✅ Procurement completed
+2026-01-30 13:46:18 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 13:46:18 | INFO | 💰 Pricing Optimization started
+2026-01-30 13:46:19 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 13:46:20 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 13:46:21 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 13:46:23 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 13:46:24 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 13:46:25 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 13:46:26 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 13:46:27 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 13:46:28 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 13:46:29 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 13:46:30 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 13:46:31 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 13:46:32 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 13:46:33 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 13:46:34 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 13:46:35 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 13:46:36 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 13:46:37 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 13:46:38 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 13:46:39 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 13:46:40 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 13:46:41 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 13:46:42 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 13:46:43 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 13:46:44 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 13:46:44 | INFO | ✅ Pricing Optimization completed
+2026-01-30 13:46:45 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 13:46:45 | INFO | 📑 Reports started
+2026-01-30 13:46:46 | INFO | 🖱️ CLICK | Go button
+2026-01-30 13:46:48 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 13:46:50 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 13:46:51 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 13:46:52 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 13:46:53 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 13:46:54 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 13:46:55 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 13:46:57 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 13:46:58 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 13:46:59 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 13:47:00 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 13:47:01 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 13:47:03 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 13:47:04 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 13:47:05 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 13:47:07 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 13:47:08 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 13:47:09 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 13:47:10 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 13:47:11 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 13:47:12 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 13:47:13 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 13:47:14 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 13:47:15 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 13:47:16 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 13:47:18 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 13:47:19 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 13:47:20 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 13:47:21 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 13:47:22 | INFO | ✅ Reports completed
+2026-01-30 13:47:23 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 13:47:53 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 13:47:53 | INFO | 📊 Saving CSV report
+2026-01-30 13:47:53 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 13:47:53 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_134753.csv
+2026-01-30 14:05:36 | INFO | Performing login
+2026-01-30 14:05:37 | INFO | ⌨️ FILL | Username textbox = user@gmail.com
+2026-01-30 14:05:38 | INFO | ⌨️ FILL | Password textbox = 12345
+2026-01-30 14:05:39 | INFO | 🖱️ CLICK | Remember Me checkbox
+2026-01-30 14:05:40 | INFO | 🖱️ CLICK | LOGIN button
+2026-01-30 14:05:42 | INFO |  Dashboard loaded — starting Demand Insights flow
+2026-01-30 14:05:42 | INFO | 📊 Market Intelligence started
+2026-01-30 14:06:17 | INFO | 🖱️ CLICK | USA data point
+2026-01-30 14:06:21 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 14:06:23 | INFO | 🖱️ CLICK | Competitor filter
+2026-01-30 14:06:24 | INFO | 🖱️ CLICK | ISG competitor checkbox
+2026-01-30 14:06:25 | INFO | 🖱️ CLICK | Search competitor
+2026-01-30 14:06:26 | INFO | 🖱️ CLICK | IRL data point
+2026-01-30 14:06:47 | INFO | 🖱️ CLICK | CHN data point
+2026-01-30 14:06:49 | INFO | 🔽 SELECT | Topic discovery dropdown = topic_discovery
+2026-01-30 14:06:50 | INFO | 🖱️ CLICK | Chart expand
+2026-01-30 14:06:51 | INFO | 🔽 SELECT | Indicator dropdown = A34SNO
+2026-01-30 14:06:52 | INFO | 🖱️ CLICK | Indicator expand
+2026-01-30 14:06:53 | INFO | 🖱️ CLICK | Date point Mar 2020
+2026-01-30 14:06:54 | INFO | 🖱️ CLICK | Date point Nov 2022
+2026-01-30 14:06:55 | INFO | 🖱️ CLICK | Apply date filter
+2026-01-30 14:06:56 | INFO | 🔽 SELECT | Sector dropdown = health
+2026-01-30 14:06:57 | INFO | 🖱️ CLICK | Date Nov 2020
+2026-01-30 14:07:00 | INFO | 🖱️ CLICK | Date Jun 2022
+2026-01-30 14:07:01 | INFO | 🖱️ CLICK | Open market indicator popup
+2026-01-30 14:07:05 | INFO | 📊 Market Indicator popup opened
+2026-01-30 14:07:14 | INFO | ❌ Market Indicator popup closed
+2026-01-30 14:07:15 | INFO | 🖱️ CLICK | Home menu
+2026-01-30 14:07:15 | INFO | ✅ Market Intelligence completed
+2026-01-30 14:07:15 | INFO | 🔹 Opening tile: Demand Intelligence
+2026-01-30 14:07:15 | INFO | 📈 Demand Intelligence started
+2026-01-30 14:07:17 | INFO | 🖱️ CLICK | Demand Intelligence expand icon
+2026-01-30 14:07:19 | INFO | 🖱️ CLICK | Predicted Power Nov 2027
+2026-01-30 14:07:20 | INFO | 🖱️ CLICK | Predicted Power Oct 2027
+2026-01-30 14:07:21 | INFO | 🖱️ CLICK | Predicted Power Jul 2027
+2026-01-30 14:07:22 | INFO | 🖱️ CLICK | Predicted Power Mar 2027
+2026-01-30 14:07:23 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 14:07:24 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 14:07:25 | INFO | ⌨️ FILL | End date = 2027-12-30
+2026-01-30 14:07:27 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 14:07:28 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 14:07:29 | INFO | 🖱️ CLICK | Search demand data
+2026-01-30 14:07:30 | INFO | 🖱️ CLICK | Aug 2027 data point
+2026-01-30 14:07:34 | INFO | 🖱️ CLICK | Jun 2027 data point
+2026-01-30 14:07:35 | INFO | 🖱️ CLICK | Expand actual vs predicted chart
+2026-01-30 14:07:36 | INFO | 🖱️ CLICK | Dec 2027 data point
+2026-01-30 14:07:37 | INFO | 🖱️ CLICK | Open factor analysis
+2026-01-30 14:07:38 | INFO | 🔽 SELECT | Factor dropdown = 2
+2026-01-30 14:07:39 | INFO | ⌨️ FILL | Factor start date = 2023-01-03
+2026-01-30 14:07:40 | INFO | ⌨️ FILL | Factor end date = 2027-12-31
+2026-01-30 14:07:41 | INFO | 🖱️ CLICK | Search factor data
+2026-01-30 14:07:43 | INFO | 🖱️ CLICK | Jan 2023 bar
+2026-01-30 14:07:44 | INFO | 🖱️ CLICK | GDP negative impact
+2026-01-30 14:07:45 | INFO | 🖱️ CLICK | GDP positive impact
+2026-01-30 14:07:46 | INFO | 🖱️ CLICK | Close factor popup
+2026-01-30 14:07:47 | INFO | 🖱️ CLICK | Open retail analysis
+2026-01-30 14:07:48 | INFO | ⌨️ FILL | Retail start date = 2023-01-02
+2026-01-30 14:07:49 | INFO | ⌨️ FILL | Retail end date = 2025-02-27
+2026-01-30 14:07:51 | INFO | 🔽 SELECT | Retail indicator = FEDFUNDS
+2026-01-30 14:07:52 | INFO | 🔽 SELECT | Retail category = C2
+2026-01-30 14:07:53 | INFO | 🔽 SELECT | Retail frequency = F2
+2026-01-30 14:07:54 | INFO | 🖱️ CLICK | Search retail data
+2026-01-30 14:07:55 | INFO | 🖱️ CLICK | Retail July 2019
+2026-01-30 14:07:56 | INFO | 🖱️ CLICK | Home menu (exit Demand Intelligence)
+2026-01-30 14:07:56 | INFO | ✅ Demand Intelligence completed
+2026-01-30 14:07:56 | INFO | 🧾 Procurement started
+2026-01-30 14:07:58 | INFO | 🖱️ CLICK | Jan 2030 data point
+2026-01-30 14:08:02 | INFO | 🖱️ CLICK | Nov 2029 data point
+2026-01-30 14:08:03 | INFO | 🖱️ CLICK | Open date filter
+2026-01-30 14:08:04 | INFO | ⌨️ FILL | Start date = 2023-01-02
+2026-01-30 14:08:05 | INFO | ⌨️ FILL | End date = 2030-12-30
+2026-01-30 14:08:06 | INFO | 🔽 SELECT | Granularity dropdown = 2
+2026-01-30 14:08:07 | INFO | 🔽 SELECT | Metric dropdown = 2
+2026-01-30 14:08:08 | INFO | 🖱️ CLICK | Search procurement data
+2026-01-30 14:08:09 | INFO | 🖱️ CLICK | Jun 2028 data point
+2026-01-30 14:08:13 | INFO | 🖱️ CLICK | Close impact popup
+2026-01-30 14:08:14 | INFO | 🖱️ CLICK | Open rate analysis
+2026-01-30 14:08:15 | INFO | ⌨️ FILL | Rate start date = 2023-01-02
+2026-01-30 14:08:16 | INFO | ⌨️ FILL | Rate end date = 2025-02-27
+2026-01-30 14:08:17 | INFO | 🔽 SELECT | Indicator dropdown = FEDFUNDS
+2026-01-30 14:08:18 | INFO | 🔽 SELECT | Category dropdown = C2
+2026-01-30 14:08:19 | INFO | 🔽 SELECT | Frequency dropdown = F2
+2026-01-30 14:08:20 | INFO | 🖱️ CLICK | Search rate data
+2026-01-30 14:08:22 | INFO | 🖱️ CLICK | Rate data point 1
+2026-01-30 14:08:25 | INFO | 🖱️ CLICK | Rate data point 2
+2026-01-30 14:08:27 | INFO | 🖱️ CLICK | Rate data point 3
+2026-01-30 14:08:27 | INFO | ✅ Procurement completed
+2026-01-30 14:08:28 | INFO | 🖱️ CLICK | Home menu (exit Procurement)
+2026-01-30 14:08:28 | INFO | 💰 Pricing Optimization started
+2026-01-30 14:08:29 | INFO | 🖱️ CLICK | Pricing chart expand
+2026-01-30 14:08:30 | INFO | 🖱️ CLICK | Revenue curve point 45k
+2026-01-30 14:08:31 | INFO | 🖱️ CLICK | Revenue curve point 60k
+2026-01-30 14:08:32 | INFO | 🖱️ CLICK | Revenue curve point 70k
+2026-01-30 14:08:33 | INFO | 🖱️ CLICK | Revenue curve point 60k low
+2026-01-30 14:08:34 | INFO | 🖱️ CLICK | Open price slider
+2026-01-30 14:08:35 | INFO | 🖱️ CLICK | 20% price point
+2026-01-30 14:08:36 | INFO | 🖱️ CLICK | 30% price point
+2026-01-30 14:08:37 | INFO | 🖱️ CLICK | 80% price point
+2026-01-30 14:08:38 | INFO | 🖱️ CLICK | Switch revenue view
+2026-01-30 14:08:39 | INFO | 🖱️ CLICK | Revenue 13M
+2026-01-30 14:08:40 | INFO | 🖱️ CLICK | Revenue 11.5M
+2026-01-30 14:08:41 | INFO | 🖱️ CLICK | Revenue 10.5M
+2026-01-30 14:08:42 | INFO | 🖱️ CLICK | Revenue 10M
+2026-01-30 14:08:43 | INFO | 🖱️ CLICK | Open cost breakdown
+2026-01-30 14:08:44 | INFO | 🖱️ CLICK | DLR incl point 1
+2026-01-30 14:08:45 | INFO | 🖱️ CLICK | DLR incl point 2
+2026-01-30 14:08:46 | INFO | 🖱️ CLICK | DLR incl point 3
+2026-01-30 14:08:48 | INFO | 🖱️ CLICK | DLR incl point 4
+2026-01-30 14:08:49 | INFO | 🖱️ CLICK | DLR incl point 5
+2026-01-30 14:08:50 | INFO | 🖱️ CLICK | IRM point 1
+2026-01-30 14:08:51 | INFO | 🖱️ CLICK | IRM point 2
+2026-01-30 14:08:52 | INFO | 🖱️ CLICK | IRM point 3
+2026-01-30 14:08:53 | INFO | 🖱️ CLICK | DLR Turnkey point 1
+2026-01-30 14:08:54 | INFO | 🖱️ CLICK | DLR Turnkey point 2
+2026-01-30 14:08:54 | INFO | ✅ Pricing Optimization completed
+2026-01-30 14:08:55 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 14:08:55 | INFO | 📑 Reports started
+2026-01-30 14:08:56 | INFO | 🖱️ CLICK | Go button
+2026-01-30 14:08:58 | INFO | 🖱️ CLICK | Identified Trends
+2026-01-30 14:08:59 | INFO | 🖱️ CLICK | Emerging Business
+2026-01-30 14:09:00 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 14:09:01 | INFO | 🖱️ CLICK | Turning Points And Timeline
+2026-01-30 14:09:02 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 14:09:03 | INFO | 🖱️ CLICK | Microsoft Mount data
+2026-01-30 14:09:04 | INFO | 🖱️ CLICK | Chart rect interaction
+2026-01-30 14:09:07 | INFO | 🖱️ CLICK | Great Lakes data 1
+2026-01-30 14:09:08 | INFO | 🖱️ CLICK | Great Lakes data 2
+2026-01-30 14:09:09 | INFO | 🖱️ CLICK | Great Lakes data 3
+2026-01-30 14:09:10 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 14:09:11 | INFO | 🖱️ CLICK | Back to report list
+2026-01-30 14:09:12 | INFO | 🖱️ CLICK | Report icon
+2026-01-30 14:09:13 | INFO | 🔽 SELECT | Energy type dropdown = nuclear
+2026-01-30 14:09:14 | INFO | 🖱️ CLICK | Go nuclear report
+2026-01-30 14:09:16 | INFO | 🖱️ CLICK | Identified Regulatory Risks
+2026-01-30 14:09:17 | INFO | 🖱️ CLICK | Key US Nuclear Policies
+2026-01-30 14:09:18 | INFO | 🖱️ CLICK | Quantitative Forecasts
+2026-01-30 14:09:20 | INFO | 🖱️ CLICK | DOE Uranium data 1
+2026-01-30 14:09:21 | INFO | 🖱️ CLICK | DOE Uranium data 2
+2026-01-30 14:09:22 | INFO | 🖱️ CLICK | DOE Uranium data 3
+2026-01-30 14:09:23 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 14:09:24 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 14:09:25 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 14:09:26 | INFO | 🔽 SELECT | Frequency dropdown = monthly
+2026-01-30 14:09:28 | INFO | 🖱️ CLICK | December 2025 Nuclear data
+2026-01-30 14:09:29 | INFO | 🖱️ CLICK | Strategic Opportunities
+2026-01-30 14:09:30 | INFO | 🖱️ CLICK | Strategic Recommendations
+2026-01-30 14:09:31 | INFO | 🖱️ CLICK | Conclusion
+2026-01-30 14:09:31 | INFO | ✅ Reports completed
+2026-01-30 14:09:32 | INFO | 🖱️ CLICK | Home menu (exit Pricing)
+2026-01-30 14:10:02 | ERROR | ❌ CLICK FAILED | Home menu (exit Pricing) | Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("//img[@alt='HomeMenu']")
+
+2026-01-30 14:10:02 | INFO | 📊 Saving CSV report
+2026-01-30 14:10:02 | INFO | 🧪 Total recorded steps: 134
+2026-01-30 14:10:02 | INFO | ✅ Report saved at: reports\final\tower_track_automation_20260130_141002.csv

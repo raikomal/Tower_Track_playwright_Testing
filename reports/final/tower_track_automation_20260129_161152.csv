@@ -1,5 +1,0 @@
-timestamp,project,application,micro_application,title,description,steps,expected_result,actual_result,status,remarks,comments
-2026-01-29 16:11:17,Tower Track,Part Allocation Insights,Facility Status Tracker,Facility Status End-to-End Validation,Username textbox,Enter value in Username textbox,Username textbox should accept input,Entered value: user@gmail.com,PASS,,
-2026-01-29 16:11:19,Tower Track,Part Allocation Insights,Facility Status Tracker,Facility Status End-to-End Validation,Password textbox,Enter value in Password textbox,Password textbox should accept input,Entered value: 12345,PASS,,
-2026-01-29 16:11:20,Tower Track,Part Allocation Insights,Facility Status Tracker,Facility Status End-to-End Validation,Remember Me checkbox,Click on Remember Me checkbox,Remember Me checkbox should be clickable,Clicked successfully,PASS,,
-2026-01-29 16:11:21,Tower Track,Part Allocation Insights,Facility Status Tracker,Facility Status End-to-End Validation,LOGIN button,Click on LOGIN button,LOGIN button should be clickable,Clicked successfully,PASS,,

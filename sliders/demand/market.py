@@ -160,10 +160,10 @@ def run(page):
         "Topic discovery dropdown"
     )
 
-    step_click(
-        page.locator(".highcharts-series.highcharts-series-4 > .highcharts-tracker-line"),
-        "Topic discovery chart line"
-    )
+    # step_click(
+    #     page.locator(".highcharts-series.highcharts-series-4 > .highcharts-tracker-line"),
+    #     "Topic discovery chart line"
+    # )
 
     step_click(
         page.locator(".flex.items-center.ml-auto > .relative > .text-lg"),

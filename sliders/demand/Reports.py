@@ -101,28 +101,28 @@ def run(page):
 
     # ---------------- SECTION NAVIGATION ----------------
     step_click(page.get_by_role("button", name="Identified Trends"), "Identified Trends")
-    time.sleep(1)
+    
 
     step_click(page.get_by_role("button", name="Emerging Business"), "Emerging Business")
-    time.sleep(1)
+    
 
     step_click(
         page.get_by_role("button", name="Strategic Recommendations"),
         "Strategic Recommendations"
     )
-    time.sleep(1)
+    
 
     step_click(
         page.get_by_role("button", name="Turning Points And Timeline"),
         "Turning Points And Timeline"
     )
-    time.sleep(1)
+    
 
     step_click(
         page.get_by_role("button", name="Quantitative Forecasts And"),
         "Quantitative Forecasts"
     )
-    time.sleep(1)
+    
 
     # ---------------- DATA POINTS ----------------
     step_click(
@@ -154,7 +154,7 @@ def run(page):
         page.get_by_role("button", name="Conclusion"),
         "Conclusion"
     )
-    time.sleep(1)
+    
 
     # ---------------- FILTER CHANGE ----------------
     step_click(page.get_by_role("img").first, "Back to report list")
@@ -241,19 +241,19 @@ def run(page):
         "December 2025 Nuclear data"
     )
 
-    time.sleep(1)
+   
 
     step_click(
         page.get_by_role("button", name="Strategic Opportunities For"),
         "Strategic Opportunities"
     )
-    time.sleep(1)
+    
 
     step_click(
         page.get_by_role("button", name="Strategic Recommendations"),
         "Strategic Recommendations"
     )
-    time.sleep(1)
+    
 
     step_click(
         page.get_by_role("button", name="Conclusion"),

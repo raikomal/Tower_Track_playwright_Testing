@@ -21,6 +21,11 @@ def get_page():
         args=["--start-maximized"]
     )
 
+    # _browser = _playwright.chromium.launch(
+    # headless=True
+    # )
+
+
     _context = _browser.new_context(no_viewport=True)
     _page = _context.new_page()
 

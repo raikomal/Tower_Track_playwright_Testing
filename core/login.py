@@ -27,7 +27,7 @@ def login(page):
     except PlaywrightTimeoutError:
         pass
 
-    logger.info("🔐 Performing login")
+    logger.info("Performing login")
 
     # Username
     step_fill(
